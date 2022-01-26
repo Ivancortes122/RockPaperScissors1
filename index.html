@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet"  href="style.css">
+    <script src = home.js defer></script>
     <title>Rock Paper Scissors</title>
 </head>
 
 <body>
-    <script src="home.js">
-    </script>
+    <div class = "choices">
 
+        <div>
+            <button id = "btnRock">Rock</button>
+        </div>
+        <div>
+             <button id = "btnPaper">Paper</button>
+        </div>
+        <div>
+            <button id = "btnScissors">Scissors</button>
+        </div>
+    </div>
+
+    <div>
+        <h2>Score</h2>
+        <p>You: <span id = "psContainer">0</span></p>
+        <p>Computer: <span id = "csContainer">0</span></p>
+        <p id = "result"></p>
+        <p id = "winner"></p>
+    </div>
     
 
 </body>
